@@ -26,6 +26,9 @@ PHP_PATH='/usr/bin/php'
 PHP_UPDATE='artisan october:update'
 #----------------------------------------
 </pre>
-Make the script executable
+
+5. Make the script executable
+<pre>
 chmod +x october_cms_mysql.sh
+</pre>
 Run the script.
