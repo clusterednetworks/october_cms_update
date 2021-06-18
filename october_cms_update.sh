@@ -13,7 +13,7 @@
 PHP_PATH='/usr/bin/php'
 PHP_UPDATE='artisan october:update'
 #----------------------------------------
-$PHP_PATH -q /var/www/ronbillings.com/$PHP_UPDATE
-$PHP_PATH -q /var/www/clusterednetworks2/$PHP_UPDATE
-$PHP_PATH -q /var/www/repaintspecialists2/$PHP_UPDATE
+$PHP_PATH -q /MODIFY-TO-YOUR-WEBSITE-PATH/$PHP_UPDATE
+$PHP_PATH -q /MODIFY-TO-YOUR-WEBSITE-PATH/$PHP_UPDATE
+$PHP_PATH -q /MODIFY-TO-YOUR-WEBSITE-PATH/$PHP_UPDATE
 exit
