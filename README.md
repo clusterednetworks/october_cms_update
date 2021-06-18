@@ -7,21 +7,25 @@ path(s) to your website(s) on your server.
 make the script executable (chmod +x) and run a cronjob
 
 # Usage:
-Pull up a terminal or SSH into the target server.
+1. Pull up a terminal or SSH into the target server.
 
-Logon as root
+2. Logon as root
 
-sudo -i
+<pre>sudo -i</pre>
 
-# Download the installer script.
-wget https://raw.githubusercontent.com/clusterednetworks/backup-mysql/master/backup-mysql.sh
-Edit the configuration options at the beginning of the script to match your environment prior to executing.
+3. Download the installer script.
+
+<pre>wget https://raw.githubusercontent.com/clusterednetworks/backup-mysql/master/backup-mysql.sh</pre>
+
+4. Edit the configuration options at the beginning of the script to match your environment prior to executing.
+<pre>
 #----------------------------------------
 # OPTIONS
 #----------------------------------------
 PHP_PATH='/usr/bin/php'
 PHP_UPDATE='artisan october:update'
 #----------------------------------------
+</pre>
 Make the script executable
 chmod +x october_cms_mysql.sh
 Run the script.
