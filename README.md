@@ -31,4 +31,12 @@ PHP_UPDATE='artisan october:update'
 <pre>
 chmod +x october_cms_mysql.sh
 </pre>
-Run the script.
+6. Run the script to ensure there are no errors.
+<pre>
+./october_cms_update
+</pre>
+7. Setup a cronjob to run daily or weekly
+<pre>
+0 23 * * 5 /etc/october_cms_update.sh >/dev/null 2>&1
+</pre>
+
