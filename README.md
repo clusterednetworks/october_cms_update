@@ -6,6 +6,9 @@ Simply modify, add or remove the proper paths and lines to the script with the
 path(s) to your website(s) on your server.
 make the script executable (chmod +x) and run a cronjob
 
+Thinking of hosting your own server in the cloud such as Digital Ocean? Click on this link for a $100 - 60 day credit!
+[Signup and Get a $100 Credit!](https://www.digitalocean.com/?refcode=8ac0bc0ef31d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
 # Usage:
 1. Pull up a terminal or SSH into the target server.
 
