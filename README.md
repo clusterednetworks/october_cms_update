@@ -15,7 +15,7 @@ make the script executable (chmod +x) and run a cronjob
 
 3. Download the installer script.
 
-<pre>wget https://raw.githubusercontent.com/clusterednetworks/backup-mysql/master/backup-mysql.sh</pre>
+<pre>wget https://raw.githubusercontent.com/clusterednetworks/october_cms_update/master/october_cms_update.sh</pre>
 
 4. Edit the configuration options at the beginning of the script to match your environment prior to executing.
 <pre>
@@ -29,11 +29,11 @@ PHP_UPDATE='artisan october:update'
 
 5. Make the script executable
 <pre>
-chmod +x october_cms_mysql.sh
+chmod +x october_cms_update.sh
 </pre>
 6. Run the script to ensure there are no errors.
 <pre>
-./october_cms_update
+./october_cms_update.sh
 </pre>
 7. Setup a cronjob to run daily or weekly
 <pre>
