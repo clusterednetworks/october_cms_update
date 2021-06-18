@@ -12,7 +12,8 @@ Pull up a terminal or SSH into the target server.
 Logon as root
 
 sudo -i
-Download the installer script.
+
+# Download the installer script.
 wget https://raw.githubusercontent.com/clusterednetworks/backup-mysql/master/backup-mysql.sh
 Edit the configuration options at the beginning of the script to match your environment prior to executing.
 #----------------------------------------
