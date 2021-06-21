@@ -2,7 +2,21 @@
 # OctoberCMS Auto Update (Bash) Script
 # by ClusteredNetworks.com (info@clusterednetworks.com)
 #
-# Performs an automatic update of your OctoberCMS Websites on a server. 
+#                                                                              #
+#  Copyright (C) 2021 Ron Billings                                         #
+#  info@clusterednetworks.com                                                        #
+#                                                                              #
+#  This program is free software; you can redistribute it and/or modify        #
+#  it under the terms of the GNU General Public License as published by        #
+#  the Free Software Foundation; either version 2 of the License, or           #
+#  (at your option) any later version.                                         #
+#                                                                              #
+#  This program is distributed in the hope that it will be useful,             #
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of              #
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               #
+#  GNU General Public License for more details.                                #
+#             
+# This Script Performs an automatic update of your OctoberCMS Websites on a server. 
 # Simply modify, add or remove the proper paths and lines to the script with the
 # path(s) to your website(s) on your server.
 # make the script executable (chmod +x) and run a cronjob
